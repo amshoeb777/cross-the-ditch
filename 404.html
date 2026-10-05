@@ -1,8 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Kiwi Crossing has moved</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Kiwi Crossing has moved to kiwi-crossing.com</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="0; url=https://amshoeb777.github.io/kiwi-crossing/">
-<link rel="canonical" href="https://amshoeb777.github.io/kiwi-crossing/">
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(r=>r.forEach(x=>x.unregister()));}
-if(window.caches){caches.keys().then(k=>k.forEach(n=>caches.delete(n)));}
-location.replace('https://amshoeb777.github.io/kiwi-crossing/'+location.hash);</script></head>
-<body style="font-family:system-ui;padding:2rem">Kiwi Crossing has moved to <a href="https://amshoeb777.github.io/kiwi-crossing/">amshoeb777.github.io/kiwi-crossing</a>.</body></html>
+<meta http-equiv="refresh" content="1; url=https://kiwi-crossing.com/">
+<link rel="canonical" href="https://kiwi-crossing.com/">
+<meta name="theme-color" content="#22584a">
+<script>var BASE="/cross-the-ditch/",NEW="https://kiwi-crossing.com/";
+function kcTarget(href){var u=new URL(href),p=u.pathname;p=p.indexOf(BASE)===0?p.slice(BASE.length):"";
+p=(p==="privacy.html"||p==="privacy")?"privacy":"";return NEW+p+u.hash;}
+(function(){var t=kcTarget(location.href);
+try{if(navigator.serviceWorker)navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){if(r.scope.indexOf(location.origin+BASE)===0)r.unregister();});});}catch(e){}
+try{if(window.caches)caches.keys().then(function(ks){ks.forEach(function(k){if(/^ctd(glass)?-/.test(k))caches.delete(k);});});}catch(e){}
+location.replace(t);})();</script>
+<style>body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f6f3ec;color:#1a2925;margin:0;padding:2rem;line-height:1.5}a{color:#22584a;font-weight:700}main{max-width:34rem;margin:10vh auto}</style></head>
+<body><main><h1>Kiwi Crossing has moved</h1><p>Kiwi Crossing now lives at <a href="https://kiwi-crossing.com/">kiwi-crossing.com</a>. Taking you there now…</p>
+<p>If you added the app to your home screen, please open the new address and add it again.</p></main></body></html>
